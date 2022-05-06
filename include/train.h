@@ -15,6 +15,7 @@ class Train {
     Cage* first = nullptr;
     Cage* last = nullptr;
     void getCount();
+ 
  public:
     void addCage(bool light);
     int getLength();
