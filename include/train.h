@@ -14,10 +14,10 @@ private:
     bool flag = false;
     Cage* first = nullptr;
     Cage* last = nullptr;
+    void getCount();
 public:
     void addCage(bool light);
     int getLength();
-    void getCount();
     int getOpCount();
 
     void createCage(bool light) {
